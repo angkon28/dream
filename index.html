@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dream – Code. Create. Tell Stories.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Dream – a cinematic black & white portfolio for software, AI/ML, Unreal Engine game dev and story writing."
+  />
+  <!-- 🔹 Favicon -->
+  <!-- Put favicon.png in: assets/icons/favicon.png -->
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/icons/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">Dream</div>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#unreal">Unreal</a>
+        <a href="#stories">Stories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <main>
+    <section id="home" class="hero">
+      <!-- Background video -->
+      <div class="hero-video">
+        <video src="assets/video/hero-bg.mp4" autoplay muted loop playsinline></video>
+      </div>
+
+      <!-- Transparent overlay so original video shows -->
+      <div class="hero-overlay"></div>
+
+      <!-- Content -->
+      <div class="hero-content">
+        <p class="hero-kicker reveal">Hello, I'm Dream</p>
+        <h1 class="hero-title reveal">
+          I build software, games &amp; stories that feel alive.
+        </h1>
+        <p class="hero-subtitle reveal">
+          C++, Python, Java, AI/ML, Unreal Engine – I love turning ideas into working apps,
+          interactive worlds, and immersive stories.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#skills" class="btn btn-primary">View My Skills</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-icon">↓</div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section section-skills">
+      <div class="section-inner">
+        <header class="section-header reveal">
+          <h2>Skills &amp; Superpowers</h2>
+          <p class="section-tagline">Things I Dream In</p>
+        </header>
+
+        <div class="skills-grid">
+          <!-- C++ -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/cpp.png" alt="C++ logo" />
+            </div>
+            <h3>C++</h3>
+            <p>High-performance game logic, systems, and core engines.</p>
+          </article>
+
+          <!-- Python -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/python.png" alt="Python logo" />
+            </div>
+            <h3>Python</h3>
+            <p>Bots, automation, small tools, and AI prototypes.</p>
+          </article>
+
+          <!-- Java -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/java.png" alt="Java logo" />
+            </div>
+            <h3>Java</h3>
+            <p>OOP foundations &amp; backend / Android basics.</p>
+          </article>
+
+          <!-- AI / ML -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/ai.png" alt="AI / ML icon" />
+            </div>
+            <h3>AI / ML</h3>
+            <p>Training and playing with machine learning models.</p>
+          </article>
+
+          <!-- Unreal Engine Game Dev -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/unreal.png" alt="Unreal Engine logo" />
+            </div>
+            <h3>Unreal Engine Game Dev</h3>
+            <p>Gameplay, levels, and interactive 3D experiences.</p>
+          </article>
+
+          <!-- Software Development -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/software.png" alt="Software dev icon" />
+            </div>
+            <h3>Software Development</h3>
+            <p>From idea to working apps &amp; tools.</p>
+          </article>
+
+          <!-- Story Writing -->
+          <article class="card skill-card reveal">
+            <div class="skill-icon">
+              <img src="assets/icons/writing.png" alt="Story writing icon" />
+            </div>
+            <h3>Story Writing</h3>
+            <p>Lore, scripts, and stories for games &amp; worlds.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== UNREAL SECTION ===================== -->
+    <section id="unreal" class="section section-unreal">
+      <div class="section-inner unreal-layout">
+        <div class="unreal-media reveal">
+          <!-- Unreal Scene video -->
+          <div class="unreal-thumb primary">
+            <video
+              src="assets/video/unreal-scene.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <!-- Gameplay Clip video -->
+          <div class="unreal-thumb secondary">
+            <video
+              src="assets/video/unreal-gameplay.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+        </div>
+        <div class="unreal-text reveal">
+          <header class="section-header">
+            <h2>Dream Worlds in Unreal Engine</h2>
+          </header>
+          <p>
+            I use Unreal Engine to turn ideas into playable worlds – levels, lighting,
+            gameplay logic, and cinematic moments.
+          </p>
+          <p>
+            From small prototypes to bigger concepts, I experiment with:
+          </p>
+          <ul class="unreal-list">
+            <li>Level design &amp; environment building</li>
+            <li>Blueprint + C++ gameplay</li>
+            <li>Lighting &amp; post-processing</li>
+            <li>UI &amp; interactive elements</li>
+          </ul>
+          <p class="unreal-note">
+            (Replace these videos with your own Unreal scenes and gameplay clips.)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STORY WRITING SECTION ===================== -->
+    <section id="stories" class="section section-stories">
+      <div class="section-inner">
+
+        <!-- story.mp4 – autoplay background-style video (no controls) -->
+        <div class="story-video-wrapper reveal">
+          <video
+            src="assets/video/story.mp4"
+            class="story-video"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+        </div>
+
+        <header class="section-header reveal">
+          <h2>Stories &amp; Worlds</h2>
+          <p class="section-tagline">Because every line of code deserves a story</p>
+        </header>
+
+        <div class="stories-grid">
+          <!-- Single story: A Knight -->
+          <article class="card story-card reveal">
+            <h3>A Knight</h3>
+            <p>
+              A lone knight walking through a silent world of code and steel – where every bug
+              is a monster and every fix is a victory.
+            </p>
+            <a href="#" class="btn-link">Read the story</a>
+          </article>
+        </div>
+
+        <!-- Story image with scroll scale effect -->
+        <div class="story-image-wrapper reveal">
+          <img
+            src="./assets/images/story-1.jpg"
+            alt="Story illustration"
+            class="story-image-parallax"
+            id="story-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section section-about">
+      <div class="section-inner">
+        <div class="about-text reveal">
+          <header class="section-header">
+            <h2>About Dream</h2>
+            <p class="section-tagline">Who’s behind the screen?</p>
+          </header>
+          <p>
+            Hi, I’m Dream – a self-taught developer and storyteller from
+            Asia.
+          </p>
+          <p>
+            I love combining:
+          </p>
+          <ul>
+            <li>C++, Python &amp; Java – to build real software</li>
+            <li>AI &amp; Machine Learning – to experiment with smart systems</li>
+            <li>Unreal Engine – to create game worlds</li>
+            <li>Story Writing – to give everything a strong narrative</li>
+          </ul>
+          <p>
+            When I’m not coding or writing, I’m usually learning new tech,
+            breaking things (then fixing them), or planning the next project.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section section-contact">
+      <div class="section-inner contact-layout">
+        <div class="contact-text reveal">
+
+          <!-- build.mp4 – autoplay background-style video (no controls) -->
+          <div class="contact-video-wrapper reveal">
+            <video
+              src="assets/video/build.mp4"
+              class="contact-video"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+
+          <header class="section-header">
+            <h2>Let’s Build Something</h2>
+            <p class="section-tagline">Have an idea? Let’s turn it into reality.</p>
+          </header>
+          <p>
+            Want a game prototype, custom software, or a story-driven experience?
+            I’m open to freelance work, collaboration, or cool side projects.
+          </p>
+          <div class="contact-actions">
+            <a href="mailto:you@example.com" class="btn btn-primary">Email Me</a>
+            <a href="#" class="btn btn-secondary">Telegram / WhatsApp</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="project-type">Project Type</label>
+            <input
+              id="project-type"
+              name="project-type"
+              type="text"
+              placeholder="Game, app, AI tool, story..."
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p>© 2026 Dream – Code. Create. Tell Stories.</p>
+        <p>Address: Asia</p>
+        <p>Coded by DreamWas</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#unreal">Unreal</a>
+          <a href="#stories">Stories</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <!-- Add your real account links here -->
+          <a href="#" target="_blank" rel="noreferrer" class="social-icon">
+            <img src="assets/icons/twitter.png" alt="Twitter" />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer" class="social-icon">
+            <img src="assets/icons/telegram.png" alt="Telegram" />
+          </a>
+          <a href="https://www.reddit.com/u/wasdream" target="_blank" rel="noreferrer" class="social-icon">
+            <img src="assets/icons/reddit.png" alt="Reddit" />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer" class="social-icon">
+            <img src="assets/icons/github.png" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+      <div class="footer-tech">
+        <p>DREAM STAR</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
